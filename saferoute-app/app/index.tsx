@@ -1,20 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, VStack, Text, Image, Box } from '@gluestack-ui/themed';
+import { useRouter } from 'expo-router';
 
-export default function App() {
+export default function HomeScreen() {
+  const router = useRouter();
+
   return (
-      <View style={styles.container}>
-        <Text>Open up App.tsx to start working on your app!</Text>
-        <StatusBar style="auto" />
-      </View>
+    <VStack flex={1} justifyContent="center" alignItems="center" space="lg" bg="$backgroundLight">
+      <Text fontSize="$3xl" fontWeight="bold" color='black'>Bem-vindo ao SafeRoute!</Text>
+      <Box width={200} height={200}>
+        <Image
+          source={require('../assets/Logo_SafeRoute.png')}
+          alt="Logo do Projeto"
+          style={{ width: 200, height: 200, resizeMode: 'contain' }}
+        />
+      </Box>
+      <VStack space="lg" width="60%">
+        <Button bg="$red600" height={50} marginBottom={15} onPress={() => router.push('/sobre_projeto')}>
+          <Text color="$white">Sobre o Projeto</Text>
+        </Button>
+        <Button bg="$red600" height={50} marginBottom={15} onPress={() => router.push('/sobre_nos')}>
+          <Text color="$white">Sobre Nós</Text>
+        </Button>
+        <Button bg="$red600" height={50} marginBottom={15} onPress={() => router.push('/iniciar')}>
+          <Text color="$white">Iniciar</Text>
+        </Button>
+      </VStack>
+    </VStack>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

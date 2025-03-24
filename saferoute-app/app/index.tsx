@@ -15,13 +15,13 @@ export default function HomeScreen() {
         />
       </Box>
       <VStack space="lg" width="60%">
-        <Button bg="$red600" height={50} marginBottom={15} onPress={() => router.push('/sobre_projeto')}>
+        <Button bg="$red600" height={50} marginBottom={10} onPress={() => router.push('/sobre_projeto')}>
           <Text color="$white">Sobre o Projeto</Text>
         </Button>
-        <Button bg="$red600" height={50} marginBottom={15} onPress={() => router.push('/sobre_nos')}>
+        <Button bg="$red600" height={50} marginBottom={10} onPress={() => router.push('/sobre_nos')}>
           <Text color="$white">Sobre Nós</Text>
         </Button>
-        <Button bg="$red600" height={50} marginBottom={15} onPress={() => router.push('/iniciar')}>
+        <Button bg="$red600" height={50} marginBottom={10} onPress={() => router.push('/login')}>
           <Text color="$white">Iniciar</Text>
         </Button>
       </VStack>

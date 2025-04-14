@@ -1,6 +1,8 @@
-import { VStack, Text, Input, InputField, Button, Pressable, Icon, HStack } from '@gluestack-ui/themed';
+import BackButton from '@/components/backButton';
+import CustomButton from '@/components/customButton';
+import CustomInput from '@/components/customInput';
+import { VStack, Text, HStack } from '@gluestack-ui/themed';
 import { useRouter } from 'expo-router';
-import { ArrowLeft } from 'lucide-react-native';
 
 export default function CadastroScreen() {
   const router = useRouter();
@@ -8,29 +10,21 @@ export default function CadastroScreen() {
   return (
     <VStack flex={1} justifyContent="center" alignItems="center" space="lg" bg="$backgroundLight" p="$5">
       <HStack width="80%" mb="$10">
-        <Pressable onPress={() => router.push('/')}>
-          <Icon as={ArrowLeft} size="xl" color="$red600" />
-        </Pressable>
+        <BackButton/>
       </HStack>
 
       <Text fontSize="$3xl" fontWeight="bold" color="black">Cadastro</Text>
 
       <VStack space="md" width="80%">
-        <Input variant="underlined" size="lg">
-          <InputField placeholder="Usuário" />
-        </Input>
+        <CustomInput placeholder="Usuário"/>
 
-        <Input variant="underlined" size="lg">
-          <InputField placeholder="Senha" type="password" />
-        </Input>
+        <CustomInput placeholder="Senha" type="password"/>
 
-        <Input variant="underlined" size="lg">
-          <InputField placeholder="Repetir Senha" type="password" />
-        </Input>
+        <CustomInput placeholder="Repetir Senha" type="password" />
 
-        <Button bg="$red600" height={50} onPress={() => router.push('/home')}>
-          <Text color="$white">Cadastrar</Text>
-        </Button>
+        <CustomButton onPress={() => router.push('/login')}>
+          <Text color='white'>Cadastrar</Text>
+        </CustomButton>
       </VStack>
     </VStack>
   );

@@ -1,4 +1,5 @@
-import { Button, VStack, Text, Image, Box } from '@gluestack-ui/themed';
+import CustomButton from '@/components/customButton';
+import { VStack, Text, Image, Box } from '@gluestack-ui/themed';
 import { useRouter } from 'expo-router';
 
 export default function HomeScreen() {
@@ -15,15 +16,9 @@ export default function HomeScreen() {
         />
       </Box>
       <VStack space="lg" width="60%">
-        <Button bg="$red600" height={50} marginBottom={10} onPress={() => router.push('/sobre_projeto')}>
-          <Text color="$white">Sobre o Projeto</Text>
-        </Button>
-        <Button bg="$red600" height={50} marginBottom={10} onPress={() => router.push('/sobre_nos')}>
-          <Text color="$white">Sobre Nós</Text>
-        </Button>
-        <Button bg="$red600" height={50} marginBottom={10} onPress={() => router.push('/login')}>
+        <CustomButton onPress={() => router.push('/login')}>
           <Text color="$white">Iniciar</Text>
-        </Button>
+        </CustomButton>
       </VStack>
     </VStack>
   );

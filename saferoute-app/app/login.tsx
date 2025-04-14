@@ -1,4 +1,6 @@
-import { VStack, Text, Input, InputField, Button, Pressable, Icon, HStack } from '@gluestack-ui/themed';
+import CustomButton from '@/components/customButton';
+import CustomInput from '@/components/customInput';
+import { VStack, Text, Pressable, Icon, HStack } from '@gluestack-ui/themed';
 import { useRouter } from 'expo-router';
 import { ArrowLeft } from 'lucide-react-native';
 
@@ -16,17 +18,11 @@ export default function LoginScreen() {
       <Text fontSize="$3xl" fontWeight="bold" color='black'>Login</Text>
 
       <VStack space="md" width="80%">
-        <Input variant="underlined" size="lg">
-          <InputField placeholder="Usuário" />
-        </Input>
+        <CustomInput placeholder="Usuário" />
+        
+        <CustomInput placeholder="Senha" type="password" />
 
-        <Input variant="underlined" size="lg">
-          <InputField placeholder="Senha" type="password" />
-        </Input>
-
-        <Button bg="$red600" height={50} onPress={() => router.push('/home')}>
-          <Text color="$white">Fazer Login</Text>
-        </Button>
+        <CustomButton onPress={() => router.push('/tabs/sobre')}>Fazer Login</CustomButton>
       </VStack>
 
       <Pressable onPress={() => router.replace('/cadastro')}>

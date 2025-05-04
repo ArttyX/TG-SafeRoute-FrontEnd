@@ -7,7 +7,7 @@ export default function HomeScreen() {
 
   return (
     <VStack flex={1} justifyContent="center" alignItems="center" space="lg" bg="$backgroundLight">
-      <Text fontSize="$3xl" fontWeight="bold" color='black'>Bem-vindo ao SafeRoute!</Text>
+      <Text fontSize="$3xl" fontWeight="bold" color='black'>Bem-vindo ao EasyRoute!</Text>
       <Box width={200} height={200}>
         <Image
           source={require('../assets/Logo_SafeRoute.png')}

@@ -1,10 +1,10 @@
 import { Box, Text, VStack, Pressable, HStack, Icon, Card } from '@gluestack-ui/themed';
 import { useRouter } from 'expo-router';
-import { Bike, Car, Utensils } from 'lucide-react-native';
+import { Car, Utensils, Boxes } from 'lucide-react-native';
 
 const cursos = [
   { nome: 'Entrega de Comida', icone: Utensils, id: 'alimentos' },
-  { nome: 'Entrega de Produtos', icone: Bike, id: 'produtos' },
+  { nome: 'Entrega de Produtos', icone: Boxes, id: 'produtos' },
   { nome: 'Transporte de Pessoas', icone: Car, id: 'pessoas' },
 ];
 

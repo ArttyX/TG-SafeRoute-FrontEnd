@@ -32,7 +32,7 @@ export default function Sobre() {
             shadowOpacity={0.1}
             shadowRadius={2}>
       <Text fontWeight={'$bold'} marginBottom={5}>Navegue pelo botão abaixo para acessar nosso formulário e dar seu feedback!</Text>
-      <CustomButton onPress={() => Linking.openURL('https://google.com.br')}>Acessar Forms</CustomButton>
+      <CustomButton onPress={() => Linking.openURL('https://forms.office.com/r/L1YJwkPUTG?origin=lprLink')}>Acessar Forms</CustomButton>
       </Card>
     </Box>
   );

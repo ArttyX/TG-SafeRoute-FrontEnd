@@ -63,7 +63,7 @@ export default function CursoScreen() {
               <Text fontSize="$lg" fontWeight="$bold" mb="$2">{modulo.titulo}</Text>
               <Text fontSize="$sm" mb="$2">{modulo.descricao}</Text>
               <CustomButton onPress={() => router.push(`/modulo/${cursoId}/${modulo.id}`)}>
-                <Text color='white'>Iniciar Módulo</Text>
+                <Text color='white'>Entrar no Módulo</Text>
               </CustomButton>
             </Box>
           ))}

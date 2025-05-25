@@ -29,21 +29,21 @@ export const cursosData = {
         perguntas: [
           {
             id:1,
-            enunciado: 'Qual das ações abaixo é essencial para aumentar a sua segurança pessoal durante o trabalho?',
-            alternativas: ['A) Sempre evitar lugares e horários com alto índice de crimes','B) Reagir rapidamente em caso de assalto para proteger seus bens', 'C) Não comunicar ninguém sobre sua rota para manter sigilo absoluto', 'D) Usar o celular para filmar o passageiro em todas as corridas'],
-            respostaCorreta: 'A) Sempre evitar lugares e horários com alto índice de crimes'
+            enunciado: 'Qual das opções abaixo é uma medida recomendada para aumentar a segurança do entregador à noite? ',
+            alternativas: ['A) Evitar usar capacete para não chamar atenção','B) Parar em locais escuros para economizar tempo', 'C) Utilizar rotas bem iluminadas e com movimento', 'D) Deixar o celular sempre à vista enquanto aguarda pedido'],
+            respostaCorreta: 'C) Utilizar rotas bem iluminadas e com movimento'
           },
           {
             id:2,
-            enunciado: 'Ao atender um cliente, qual é a melhor prática para garantir uma boa experiência?',
-            alternativas: ['A) Falar o mínimo possível para economizar tempo','B) Ser educado, respeitar as preferências do cliente e manter comunicação clara', 'C) Ignorar reclamações e seguir com o serviço normalmente', 'D) Perguntar sempre qual o destino para evitar conversas desnecessárias'],
-            respostaCorreta: 'B) Ser educado, respeitar as preferências do cliente e manter comunicação clara'
+            enunciado: 'Em caso de tentativa de assalto durante uma entrega, o que o entregador deve fazer?',
+            alternativas: ['A) Reagir com firmeza para se defender','B) Acelerar a moto e fugir', 'C) Negociar com o assaltante', 'D) Entregar o que for pedido e priorizar a vida'],
+            respostaCorreta: 'D) Entregar o que for pedido e priorizar a vida'
           },
           {
             id:3,
-            enunciado: 'Com relação à manutenção preventiva da moto, qual dos itens abaixo deve ser verificado regularmente para evitar acidentes?',
-            alternativas: ['A) A altura do banco','B) O estado dos pneus e a pressão recomendada', 'C) A cor da pintura', 'D) O volume da buzina'],
-            respostaCorreta: 'B) O estado dos pneus e a pressão recomendada'
+            enunciado: 'Qual item abaixo contribui para proteger os pertences do entregador durante o trabalho?',
+            alternativas: ['A) Deixar carteira e celular no bolso de trás','B) Usar mochila térmica com compartimentos internos', 'C) Deixar documentos no painel da moto', 'D) Guardar objetos de valor sob o banco sem trancar'],
+            respostaCorreta: 'B) Usar mochila térmica com compartimentos internos'
           }
         ],
       },
@@ -67,21 +67,21 @@ export const cursosData = {
           perguntas: [
           {
             id:1,
-            enunciado: 'Qual das ações abaixo é essencial para aumentar a sua segurança pessoal durante o trabalho?',
-            alternativas: ['A) Sempre evitar lugares e horários com alto índice de crimes','B) Reagir rapidamente em caso de assalto para proteger seus bens', 'C) Não comunicar ninguém sobre sua rota para manter sigilo absoluto', 'D) Usar o celular para filmar o passageiro em todas as corridas'],
-            respostaCorreta: 'A) Sempre evitar lugares e horários com alto índice de crimes'
+            enunciado: 'Quando o pedido atrasa devido ao trânsito, o que o entregador deve fazer?',
+            alternativas: ['A) Ignorar e seguir a entrega','B) Avisar o cliente com educação pelo app', 'C) Pedir para o cliente cancelar o pedido', 'D) Falar com o restaurante para resolver'],
+            respostaCorreta: 'B) Avisar o cliente com educação pelo app'
           },
           {
             id:2,
-            enunciado: 'Ao atender um cliente, qual é a melhor prática para garantir uma boa experiência?',
-            alternativas: ['A) Falar o mínimo possível para economizar tempo','B) Ser educado, respeitar as preferências do cliente e manter comunicação clara', 'C) Ignorar reclamações e seguir com o serviço normalmente', 'D) Perguntar sempre qual o destino para evitar conversas desnecessárias'],
-            respostaCorreta: 'B) Ser educado, respeitar as preferências do cliente e manter comunicação clara'
+            enunciado: 'Como o entregador deve lidar com um cliente grosseiro?',
+            alternativas: ['A) Responder de forma rude','B) Ignorar completamente', 'C) Manter a calma e profissionalismo', 'D) Cancelar a entrega sem justificar'],
+            respostaCorreta: 'C) Manter a calma e profissionalismo'
           },
           {
             id:3,
-            enunciado: 'Com relação à manutenção preventiva da moto, qual dos itens abaixo deve ser verificado regularmente para evitar acidentes?',
-            alternativas: ['A) A altura do banco','B) O estado dos pneus e a pressão recomendada', 'C) A cor da pintura', 'D) O volume da buzina'],
-            respostaCorreta: 'B) O estado dos pneus e a pressão recomendada'
+            enunciado: 'O que é importante para garantir um bom atendimento ao cliente?',
+            alternativas: ['A) Falar rápido e encerrar logo o contato','B) Entregar o pedido e ir embora sem contato', 'C) Ser pontual, educado e cuidadoso com o pedido', 'D) Evitar seguir as instruções de entrega do app'],
+            respostaCorreta: 'C) Ser pontual, educado e cuidadoso com o pedido'
           }
         ],
       },
@@ -105,21 +105,21 @@ export const cursosData = {
           perguntas: [
           {
             id:1,
-            enunciado: 'Qual das ações abaixo é essencial para aumentar a sua segurança pessoal durante o trabalho?',
-            alternativas: ['A) Sempre evitar lugares e horários com alto índice de crimes','B) Reagir rapidamente em caso de assalto para proteger seus bens', 'C) Não comunicar ninguém sobre sua rota para manter sigilo absoluto', 'D) Usar o celular para filmar o passageiro em todas as corridas'],
-            respostaCorreta: 'A) Sempre evitar lugares e horários com alto índice de crimes'
+            enunciado: 'Qual é uma prática de direção defensiva para entregadores de comida em motocicleta?',
+            alternativas: ['A) Andar no corredor em alta velocidade','B) Ultrapassar pela direita em semáforo', 'C) Manter distância segura e usar equipamento adequado', 'D) Usar atalhos desconhecidos para ser mais rápido'],
+            respostaCorreta: 'C) Manter distância segura e usar equipamento adequado'
           },
           {
             id:2,
-            enunciado: 'Ao atender um cliente, qual é a melhor prática para garantir uma boa experiência?',
-            alternativas: ['A) Falar o mínimo possível para economizar tempo','B) Ser educado, respeitar as preferências do cliente e manter comunicação clara', 'C) Ignorar reclamações e seguir com o serviço normalmente', 'D) Perguntar sempre qual o destino para evitar conversas desnecessárias'],
-            respostaCorreta: 'B) Ser educado, respeitar as preferências do cliente e manter comunicação clara'
+            enunciado: 'Em dias de chuva, o entregador deve:',
+            alternativas: ['A) Aumentar a velocidade para chegar mais rápido','B) Usar capa de chuva e pneus em bom estado', 'C) Evitar usar capacete para não embaçar a viseira', 'D) Suspender as entregas automaticamente'],
+            respostaCorreta: 'B) Usar capa de chuva e pneus em bom estado'
           },
           {
             id:3,
-            enunciado: 'Com relação à manutenção preventiva da moto, qual dos itens abaixo deve ser verificado regularmente para evitar acidentes?',
-            alternativas: ['A) A altura do banco','B) O estado dos pneus e a pressão recomendada', 'C) A cor da pintura', 'D) O volume da buzina'],
-            respostaCorreta: 'B) O estado dos pneus e a pressão recomendada'
+            enunciado: 'O que é importante para evitar acidentes ao pilotar com carga?',
+            alternativas: ['A) Usar mochila frouxa para conforto','B) Andar entre carros constantemente', 'C) Manter a carga bem fixada e pilotar com cautela', 'D) Desconsiderar o peso da carga ao frear'],
+            respostaCorreta: 'C) Manter a carga bem fixada e pilotar com cautela'
           }
         ],
       },
@@ -151,21 +151,21 @@ export const cursosData = {
           perguntas: [
           {
             id:1,
-            enunciado: 'Qual das ações abaixo é essencial para aumentar a sua segurança pessoal durante o trabalho?',
-            alternativas: ['A) Sempre evitar lugares e horários com alto índice de crimes','B) Reagir rapidamente em caso de assalto para proteger seus bens', 'C) Não comunicar ninguém sobre sua rota para manter sigilo absoluto', 'D) Usar o celular para filmar o passageiro em todas as corridas'],
-            respostaCorreta: 'A) Sempre evitar lugares e horários com alto índice de crimes'
+            enunciado: 'Com que frequência o entregador deve calibrar os pneus da moto?',
+            alternativas: ['A) Somente quando sentir a moto instável','B) A cada troca de óleo', 'C) Semanalmente ou conforme recomendação do fabricante', 'D) Somente quando estiver visivelmente murcho'],
+            respostaCorreta: 'C) Semanalmente ou conforme recomendação do fabricante'
           },
           {
             id:2,
-            enunciado: 'Ao atender um cliente, qual é a melhor prática para garantir uma boa experiência?',
-            alternativas: ['A) Falar o mínimo possível para economizar tempo','B) Ser educado, respeitar as preferências do cliente e manter comunicação clara', 'C) Ignorar reclamações e seguir com o serviço normalmente', 'D) Perguntar sempre qual o destino para evitar conversas desnecessárias'],
-            respostaCorreta: 'B) Ser educado, respeitar as preferências do cliente e manter comunicação clara'
+            enunciado: 'Por que é importante verificar o nível de óleo do motor regularmente?',
+            alternativas: ['A) Para melhorar o som do motor','B) Para garantir o funcionamento correto e evitar danos', 'C) Para evitar multas de trânsito', 'D) Porque o óleo pode vazar durante a entrega'],
+            respostaCorreta: 'B) Para garantir o funcionamento correto e evitar danos'
           },
           {
             id:3,
-            enunciado: 'Com relação à manutenção preventiva da moto, qual dos itens abaixo deve ser verificado regularmente para evitar acidentes?',
-            alternativas: ['A) A altura do banco','B) O estado dos pneus e a pressão recomendada', 'C) A cor da pintura', 'D) O volume da buzina'],
-            respostaCorreta: 'B) O estado dos pneus e a pressão recomendada'
+            enunciado: 'O que pode indicar a necessidade de troca das pastilhas de freio?',
+            alternativas: ['A) Luz alta do farol piscando','B) Moto acelerando sozinha', 'C) Ruídos e desgaste perceptível', 'D) Falta de potência no motor'],
+            respostaCorreta: 'C) Ruídos e desgaste perceptível'
           }
         ],
       }
@@ -199,21 +199,21 @@ export const cursosData = {
           perguntas: [
           {
             id:1,
-            enunciado: 'Qual a principal função da troca regular do óleo e do filtro do veículo?',
-            alternativas: ['A) Melhorar o consumo de combustível','B) Lubrificar o motor e evitar o desgaste precoce das peças', 'C) Aumentar a velocidade do veículo', 'D) Diminuir o peso do veículo'],
-            respostaCorreta: 'B) Lubrificar o motor e evitar o desgaste precoce das peças'
+            enunciado: 'Por que é importante conhecer bem o tipo de carga transportada?',
+            alternativas: ['A) Para saber se a carga pode ser transportada em qualquer veículo','B) Para garantir que a carga será entregue no horário estimado', 'C) Para aplicar os cuidados específicos de segurança que cada tipo de carga exige', 'D) Para verificar se a carga pode ser transportada com pouca fiscalização'],
+            respostaCorreta: 'C) Para aplicar os cuidados específicos de segurança que cada tipo de carga exige'
           },
           {
             id:2,
-            enunciado: 'Por que é importante organizar corretamente a carga no veículo de entrega?',
-            alternativas: ['A) Para que a carga pareça mais volumosa','B) Para distribuir o peso de forma equilibrada e não bloquear a visão do motorista', 'C) Para aumentar o espaço disponível dentro do veículo', 'D) Para facilitar o acesso aos passageiros'],
-            respostaCorreta: 'B) Para distribuir o peso de forma equilibrada e não bloquear a visão do motorista'
+            enunciado: 'Qual é uma medida recomendada ao estacionar com carga valiosa?',
+            alternativas: ['A) Estacionar em qualquer lugar para agilizar a entrega','B) Evitar locais com iluminação, pois chamam atenção', 'C) Procurar locais visíveis, bem iluminados e com movimento', 'D) Parar em ruas desertas para evitar transtornos com pedestres'],
+            respostaCorreta: 'C) Procurar locais visíveis, bem iluminados e com movimento'
           },
           {
             id:3,
-            enunciado: 'Qual é a principal ação que um motorista deve realizar diariamente para garantir a manutenção preventiva do veículo?',
-            alternativas: ['A) Lavar o veículo','B) Fazer inspeções básicas, como verificar níveis de óleo, água, calibragem dos pneus e funcionamento das luzes', 'C) Pintar o veículo', 'D) Colocar acessórios decorativos'],
-            respostaCorreta: 'B) Fazer inspeções básicas, como verificar níveis de óleo, água, calibragem dos pneus e funcionamento das luzes'
+            enunciado: 'Qual atitude contribui diretamente para evitar o roubo de carga?',
+            alternativas: ['A) Divulgar nas redes sociais a localização e tipo da carga','B) Evitar contato com a central durante a rota', 'C) Deixar o veículo com a carga aberta em locais movimentados', 'D) Manter comunicação constante com a central e utilizar rastreamento'],
+            respostaCorreta: 'D) Manter comunicação constante com a central e utilizar rastreamento'
           }
         ],
       },
@@ -239,21 +239,21 @@ export const cursosData = {
           perguntas: [
           {
             id:1,
-            enunciado: 'Qual a principal função da troca regular do óleo e do filtro do veículo?',
-            alternativas: ['A) Melhorar o consumo de combustível','B) Lubrificar o motor e evitar o desgaste precoce das peças', 'C) Aumentar a velocidade do veículo', 'D) Diminuir o peso do veículo'],
-            respostaCorreta: 'B) Lubrificar o motor e evitar o desgaste precoce das peças'
+            enunciado: 'O que o motorista deve fazer ao lidar com um cliente grosseiro?',
+            alternativas: ['A) Retrucar para impor respeito','B) Ignorar completamente o cliente', 'C) Manter a calma, responder com educação e, se necessário, comunicar à empresa', 'D) Reclamar com outros clientes sobre o comportamento recebido'],
+            respostaCorreta: 'C) Manter a calma, responder com educação e, se necessário, comunicar à empresa'
           },
           {
             id:2,
-            enunciado: 'Por que é importante organizar corretamente a carga no veículo de entrega?',
-            alternativas: ['A) Para que a carga pareça mais volumosa','B) Para distribuir o peso de forma equilibrada e não bloquear a visão do motorista', 'C) Para aumentar o espaço disponível dentro do veículo', 'D) Para facilitar o acesso aos passageiros'],
-            respostaCorreta: 'B) Para distribuir o peso de forma equilibrada e não bloquear a visão do motorista'
+            enunciado: 'Qual atitude demonstra empatia e profissionalismo durante uma entrega?',
+            alternativas: ['A) Falar rapidamente para terminar logo a entrega','B) Interromper o cliente para explicar seu lado', 'C) Agradecer o cliente e informar o tempo estimado de chegada', 'D) Deixar a entrega no portão sem avisar'],
+            respostaCorreta: 'C) Agradecer o cliente e informar o tempo estimado de chegada'
           },
           {
             id:3,
-            enunciado: 'Qual é a principal ação que um motorista deve realizar diariamente para garantir a manutenção preventiva do veículo?',
-            alternativas: ['A) Lavar o veículo','B) Fazer inspeções básicas, como verificar níveis de óleo, água, calibragem dos pneus e funcionamento das luzes', 'C) Pintar o veículo', 'D) Colocar acessórios decorativos'],
-            respostaCorreta: 'B) Fazer inspeções básicas, como verificar níveis de óleo, água, calibragem dos pneus e funcionamento das luzes'
+            enunciado: 'O que o motorista deve fazer quando o cliente não está disponível para receber o pedido?',
+            alternativas: ['A) Levar o pedido de volta para casa','B) Deixar o pedido em qualquer lugar e seguir a rota', 'C) Seguir o protocolo da empresa, registrar a entrega e tentar contato', 'D) Esperar indefinidamente até o cliente aparecer'],
+            respostaCorreta: 'C) Seguir o protocolo da empresa, registrar a entrega e tentar contato'
           }
         ],
       },
@@ -279,21 +279,21 @@ export const cursosData = {
           perguntas: [
           {
             id:1,
-            enunciado: 'Qual a principal função da troca regular do óleo e do filtro do veículo?',
-            alternativas: ['A) Melhorar o consumo de combustível','B) Lubrificar o motor e evitar o desgaste precoce das peças', 'C) Aumentar a velocidade do veículo', 'D) Diminuir o peso do veículo'],
-            respostaCorreta: 'B) Lubrificar o motor e evitar o desgaste precoce das peças'
+            enunciado: 'Por que motoristas de carga leve devem manter maior distância do veículo à frente?',
+            alternativas: ['A) Para evitar que outros veículos mudem de faixa','B) Porque o peso da carga exige maior distância de frenagem', 'C) Para manter a fila de trânsito mais organizada', 'D) Porque os carros menores não respeitam a sinalização'],
+            respostaCorreta: 'B) Porque o peso da carga exige maior distância de frenagem'
           },
           {
             id:2,
-            enunciado: 'Por que é importante organizar corretamente a carga no veículo de entrega?',
-            alternativas: ['A) Para que a carga pareça mais volumosa','B) Para distribuir o peso de forma equilibrada e não bloquear a visão do motorista', 'C) Para aumentar o espaço disponível dentro do veículo', 'D) Para facilitar o acesso aos passageiros'],
-            respostaCorreta: 'B) Para distribuir o peso de forma equilibrada e não bloquear a visão do motorista'
+            enunciado: 'O que deve ser feito para lidar com pontos cegos em furgões?',
+            alternativas: ['A) Evitar olhar os espelhos e confiar no retrovisor interno','B) Olhar rapidamente para os lados sem usar os espelhos', 'C) Utilizar os espelhos laterais e movimentos de cabeça antes de mudar de faixa', 'D) Ignorar os pontos cegos e focar na estrada à frente'],
+            respostaCorreta: 'C) Utilizar os espelhos laterais e movimentos de cabeça antes de mudar de faixa'
           },
           {
             id:3,
-            enunciado: 'Qual é a principal ação que um motorista deve realizar diariamente para garantir a manutenção preventiva do veículo?',
-            alternativas: ['A) Lavar o veículo','B) Fazer inspeções básicas, como verificar níveis de óleo, água, calibragem dos pneus e funcionamento das luzes', 'C) Pintar o veículo', 'D) Colocar acessórios decorativos'],
-            respostaCorreta: 'B) Fazer inspeções básicas, como verificar níveis de óleo, água, calibragem dos pneus e funcionamento das luzes'
+            enunciado: 'O que caracteriza a direção defensiva?',
+            alternativas: ['A) Fazer manobras rápidas para ganhar tempo','B) Antecipar situações de risco e dirigir com prudência', 'C) Dirigir próximo a pedestres e ciclistas para alertá-los', 'D) Usar atalhos por ruas desertas para evitar trânsito'],
+            respostaCorreta: 'B) Antecipar situações de risco e dirigir com prudência'
           }
         ],
       },
@@ -321,21 +321,21 @@ export const cursosData = {
           perguntas: [
           {
             id:1,
-            enunciado: 'Qual a principal função da troca regular do óleo e do filtro do veículo?',
-            alternativas: ['A) Melhorar o consumo de combustível','B) Lubrificar o motor e evitar o desgaste precoce das peças', 'C) Aumentar a velocidade do veículo', 'D) Diminuir o peso do veículo'],
-            respostaCorreta: 'B) Lubrificar o motor e evitar o desgaste precoce das peças'
+            enunciado: 'Por que é importante verificar o estado dos pneus regularmente?',
+            alternativas: ['A) Para saber se o veículo está sujo','B) Para aumentar o conforto do motorista', 'C) Para garantir melhor aderência e evitar acidentes', 'D) Para reduzir o peso do veículo'],
+            respostaCorreta: 'C) Para garantir melhor aderência e evitar acidentes'
           },
           {
             id:2,
-            enunciado: 'Por que é importante organizar corretamente a carga no veículo de entrega?',
-            alternativas: ['A) Para que a carga pareça mais volumosa','B) Para distribuir o peso de forma equilibrada e não bloquear a visão do motorista', 'C) Para aumentar o espaço disponível dentro do veículo', 'D) Para facilitar o acesso aos passageiros'],
-            respostaCorreta: 'B) Para distribuir o peso de forma equilibrada e não bloquear a visão do motorista'
+            enunciado: 'O que pode indicar problemas de alinhamento ou balanceamento?',
+            alternativas: ['A) Pneus novos','B) Desgaste irregular dos pneus', 'C) Falta de combustível', 'D) Rachaduras nos faróis'],
+            respostaCorreta: 'B) Desgaste irregular dos pneus'
           },
           {
             id:3,
-            enunciado: 'Qual é a principal ação que um motorista deve realizar diariamente para garantir a manutenção preventiva do veículo?',
-            alternativas: ['A) Lavar o veículo','B) Fazer inspeções básicas, como verificar níveis de óleo, água, calibragem dos pneus e funcionamento das luzes', 'C) Pintar o veículo', 'D) Colocar acessórios decorativos'],
-            respostaCorreta: 'B) Fazer inspeções básicas, como verificar níveis de óleo, água, calibragem dos pneus e funcionamento das luzes'
+            enunciado: 'O que é recomendado fazer antes de iniciar a jornada com o veículo?',
+            alternativas: ['A) Apenas ligar o motor e sair','B) Esperar 10 minutos com o motor ligado', 'C) Verificar níveis de óleo, água, luzes e calibragem dos pneus', 'D) Desligar os faróis para economizar bateria'],
+            respostaCorreta: 'C) Verificar níveis de óleo, água, luzes e calibragem dos pneus'
           }
         ],
       }
@@ -365,21 +365,21 @@ export const cursosData = {
           perguntas: [
           {
             id:1,
-            enunciado: 'Sobre segurança pessoal e patrimonial, o que é recomendado para o motorista de aplicativo ao iniciar uma corrida em uma área desconhecida?',
-            alternativas: ['A) Utilizar um trajeto alternativo diferente do GPS.', 'B) Aceitar a corrida sem verificar o perfil do passageiro.', 'C) Avaliar a nota do passageiro e compartilhar a corrida com alguém de confiança.', 'D) Questionar o passageiro sobre o destino final durante o trajeto.'],
-            respostaCorreta: 'C) Avaliar a nota do passageiro e compartilhar a corrida com alguém de confiança.'
+            enunciado: 'Qual atitude ajuda a aumentar a segurança pessoal de um motorista de aplicativo?',
+            alternativas: ['A) Evitar compartilhar a localização', 'B) Aceitar chamadas com destino desconhecido em áreas perigosas', 'C) Planejar rotas e evitar locais de alto risco', 'D) Fazer viagens noturnas sem comunicação com ninguém'],
+            respostaCorreta: 'C) Planejar rotas e evitar locais de alto risco'
           },
           {
             id:2,
-            enunciado: 'Em relação ao atendimento ao cliente, qual das opções abaixo representa uma boa prática para motoristas de aplicativo?',
-            alternativas: ['A) Manter o rádio ligado em volume alto, independentemente da preferência do passageiro.',' B) Iniciar conversas pessoais com todos os clientes, mesmo que eles não queiram conversar.', 'C) Cumprimentar cordialmente, manter o carro limpo e adaptar-se ao perfil do passageiro.', ' D) Fazer perguntas sobre a vida do passageiro para tornar a viagem mais “humana”.'],
-            respostaCorreta: 'C) Cumprimentar cordialmente, manter o carro limpo e adaptar-se ao perfil do passageiro.'
+            enunciado: 'Ao transportar um passageiro suspeito, o motorista deve:',
+            alternativas: ['A) Confrontá-lo diretamente',' B) Parar em local ermo e pedir para descer', 'C) Encerrar a corrida de forma segura e comunicar o app', ' D) Seguir a rota ignorando os sinais'],
+            respostaCorreta: 'C) Encerrar a corrida de forma segura e comunicar o app'
           },
           {
             id:3,
-            enunciado: 'O que é direção defensiva, segundo o que se ensina em treinamentos oficiais e nos cursos do Detran?',
-            alternativas: ['A) Dirigir com pressa para evitar ficar parado em cruzamentos perigosos.','B) Realizar manobras rápidas e inesperadas para evitar colisões.', 'C) Adotar comportamentos seguros, antecipar riscos e preservar vidas.', 'D) Dirigir sempre no limite máximo de velocidade permitido na via.'],
-            respostaCorreta: 'C) Adotar comportamentos seguros, antecipar riscos e preservar vidas.'
+            enunciado: 'Como o motorista pode proteger seu veículo de furtos durante o trabalho?',
+            alternativas: ['A) Deixando a chave no contato ao sair','B) Estacionando em locais movimentados e trancando o carro', 'C) Confiando nos passageiros para vigiar', 'D) Deixando janelas abertas por segurança'],
+            respostaCorreta: 'B) Estacionando em locais movimentados e trancando o carro'
           }
         ],
       },
@@ -405,21 +405,21 @@ export const cursosData = {
           perguntas: [
           {
             id:1,
-            enunciado: 'Sobre segurança pessoal e patrimonial, o que é recomendado para o motorista de aplicativo ao iniciar uma corrida em uma área desconhecida?',
-            alternativas: ['A) Utilizar um trajeto alternativo diferente do GPS.', 'B) Aceitar a corrida sem verificar o perfil do passageiro.', 'C) Avaliar a nota do passageiro e compartilhar a corrida com alguém de confiança.', 'D) Questionar o passageiro sobre o destino final durante o trajeto.'],
-            respostaCorreta: 'C) Avaliar a nota do passageiro e compartilhar a corrida com alguém de confiança.'
+            enunciado: 'Quando o passageiro está atrasado, o motorista deve:',
+            alternativas: ['A) Cancelar imediatamente', 'B) Aguardar o tempo permitido e contatar educadamente', 'C) Reclamar com o suporte do app', 'D) Ignorar e sair'],
+            respostaCorreta: 'B) Aguardar o tempo permitido e contatar educadamente'
           },
           {
             id:2,
-            enunciado: 'Em relação ao atendimento ao cliente, qual das opções abaixo representa uma boa prática para motoristas de aplicativo?',
-            alternativas: ['A) Manter o rádio ligado em volume alto, independentemente da preferência do passageiro.',' B) Iniciar conversas pessoais com todos os clientes, mesmo que eles não queiram conversar.', 'C) Cumprimentar cordialmente, manter o carro limpo e adaptar-se ao perfil do passageiro.', ' D) Fazer perguntas sobre a vida do passageiro para tornar a viagem mais “humana”.'],
-            respostaCorreta: 'C) Cumprimentar cordialmente, manter o carro limpo e adaptar-se ao perfil do passageiro.'
+            enunciado: 'Como o motorista deve agir diante de um cliente embriagado?',
+            alternativas: ['A) Negar a corrida com agressividade',' B) Aceitar a corrida sem precauções', 'C) Manter postura profissional e seguir orientações do app', ' D) Filmar o passageiro e postar em redes sociais'],
+            respostaCorreta: 'C) Manter postura profissional e seguir orientações do app'
           },
           {
             id:3,
-            enunciado: 'O que é direção defensiva, segundo o que se ensina em treinamentos oficiais e nos cursos do Detran?',
-            alternativas: ['A) Dirigir com pressa para evitar ficar parado em cruzamentos perigosos.','B) Realizar manobras rápidas e inesperadas para evitar colisões.', 'C) Adotar comportamentos seguros, antecipar riscos e preservar vidas.', 'D) Dirigir sempre no limite máximo de velocidade permitido na via.'],
-            respostaCorreta: 'C) Adotar comportamentos seguros, antecipar riscos e preservar vidas.'
+            enunciado: 'Um bom atendimento para motoristas de passageiros inclui:',
+            alternativas: ['A) Evitar falar com o cliente','B) Oferecer uma condução confortável, respeitosa e segura', 'C) Chegar atrasado para otimizar outras corridas', 'D) Aceitar todas as rotas mesmo contra a vontade do cliente'],
+            respostaCorreta: 'B) Oferecer uma condução confortável, respeitosa e segura'
           }
         ],
       },
@@ -449,21 +449,21 @@ export const cursosData = {
           perguntas: [
           {
             id:1,
-            enunciado: 'Sobre segurança pessoal e patrimonial, o que é recomendado para o motorista de aplicativo ao iniciar uma corrida em uma área desconhecida?',
-            alternativas: ['A) Utilizar um trajeto alternativo diferente do GPS.', 'B) Aceitar a corrida sem verificar o perfil do passageiro.', 'C) Avaliar a nota do passageiro e compartilhar a corrida com alguém de confiança.', 'D) Questionar o passageiro sobre o destino final durante o trajeto.'],
-            respostaCorreta: 'C) Avaliar a nota do passageiro e compartilhar a corrida com alguém de confiança.'
+            enunciado: 'Ao dirigir com passageiros, qual prática reforça a direção defensiva?',
+            alternativas: ['A) Fazer curvas rápidas para mostrar habilidade', 'B) Conversar olhando para o passageiro o tempo todo', 'C) Manter distância segura e evitar manobras bruscas', 'D) Ultrapassar em locais proibidos para ser pontual'],
+            respostaCorreta: 'C) Manter distância segura e evitar manobras bruscas'
           },
           {
             id:2,
-            enunciado: 'Em relação ao atendimento ao cliente, qual das opções abaixo representa uma boa prática para motoristas de aplicativo?',
-            alternativas: ['A) Manter o rádio ligado em volume alto, independentemente da preferência do passageiro.',' B) Iniciar conversas pessoais com todos os clientes, mesmo que eles não queiram conversar.', 'C) Cumprimentar cordialmente, manter o carro limpo e adaptar-se ao perfil do passageiro.', ' D) Fazer perguntas sobre a vida do passageiro para tornar a viagem mais “humana”.'],
-            respostaCorreta: 'C) Cumprimentar cordialmente, manter o carro limpo e adaptar-se ao perfil do passageiro.'
+            enunciado: 'Qual item deve ser sempre checado antes de sair para as corridas?',
+            alternativas: ['A) Som automotivo',' B) Nível de água e funcionamento das luzes', 'C) Cor dos bancos', ' D) Itens pessoais no porta-luvas'],
+            respostaCorreta: 'B) Nível de água e funcionamento das luzes'
           },
           {
             id:3,
-            enunciado: 'O que é direção defensiva, segundo o que se ensina em treinamentos oficiais e nos cursos do Detran?',
-            alternativas: ['A) Dirigir com pressa para evitar ficar parado em cruzamentos perigosos.','B) Realizar manobras rápidas e inesperadas para evitar colisões.', 'C) Adotar comportamentos seguros, antecipar riscos e preservar vidas.', 'D) Dirigir sempre no limite máximo de velocidade permitido na via.'],
-            respostaCorreta: 'C) Adotar comportamentos seguros, antecipar riscos e preservar vidas.'
+            enunciado: 'Em trânsito pesado, a melhor estratégia de direção defensiva é:',
+            alternativas: ['A) Costurar o trânsito para ser mais rápido','B) Buzinar constantemente', 'C) Manter a calma e respeitar o fluxo', 'D) Evitar usar os freios'],
+            respostaCorreta: 'C) Manter a calma e respeitar o fluxo'
           }
         ],
       },
@@ -493,21 +493,21 @@ export const cursosData = {
           perguntas: [
           {
             id:1,
-            enunciado: 'Sobre segurança pessoal e patrimonial, o que é recomendado para o motorista de aplicativo ao iniciar uma corrida em uma área desconhecida?',
-            alternativas: ['A) Utilizar um trajeto alternativo diferente do GPS.', 'B) Aceitar a corrida sem verificar o perfil do passageiro.', 'C) Avaliar a nota do passageiro e compartilhar a corrida com alguém de confiança.', 'D) Questionar o passageiro sobre o destino final durante o trajeto.'],
-            respostaCorreta: 'C) Avaliar a nota do passageiro e compartilhar a corrida com alguém de confiança.'
+            enunciado: 'Por que é essencial manter os freios do carro em boas condições?',
+            alternativas: ['A) Para economizar combustível', 'B) Para garantir a segurança nas frenagens', 'C) Para não ouvir ruídos no carro', 'D) Para rodar mais rápido'],
+            respostaCorreta: 'B) Para garantir a segurança nas frenagens'
           },
           {
             id:2,
-            enunciado: 'Em relação ao atendimento ao cliente, qual das opções abaixo representa uma boa prática para motoristas de aplicativo?',
-            alternativas: ['A) Manter o rádio ligado em volume alto, independentemente da preferência do passageiro.',' B) Iniciar conversas pessoais com todos os clientes, mesmo que eles não queiram conversar.', 'C) Cumprimentar cordialmente, manter o carro limpo e adaptar-se ao perfil do passageiro.', ' D) Fazer perguntas sobre a vida do passageiro para tornar a viagem mais “humana”.'],
-            respostaCorreta: 'C) Cumprimentar cordialmente, manter o carro limpo e adaptar-se ao perfil do passageiro.'
+            enunciado: 'O motorista deve realizar a troca de óleo:',
+            alternativas: ['A) Somente quando o carro parar',' B) A cada dois anos', 'C) Conforme recomendação do fabricante ou a cada 5.000 km', ' D) Quando o painel avisar que acabou'],
+            respostaCorreta: 'C) Conforme recomendação do fabricante ou a cada 5.000 km'
           },
           {
             id:3,
-            enunciado: 'O que é direção defensiva, segundo o que se ensina em treinamentos oficiais e nos cursos do Detran?',
-            alternativas: ['A) Dirigir com pressa para evitar ficar parado em cruzamentos perigosos.','B) Realizar manobras rápidas e inesperadas para evitar colisões.', 'C) Adotar comportamentos seguros, antecipar riscos e preservar vidas.', 'D) Dirigir sempre no limite máximo de velocidade permitido na via.'],
-            respostaCorreta: 'C) Adotar comportamentos seguros, antecipar riscos e preservar vidas.'
+            enunciado: 'Um sinal de problema no sistema elétrico pode ser:',
+            alternativas: ['A) Cheiro de comida no carro','B) Luz de seta acesa continuamente', 'C) Faróis fracos ou pane nos painéis', 'D) Volante mais duro'],
+            respostaCorreta: 'C) Faróis fracos ou pane nos painéis'
           }
         ],
       }

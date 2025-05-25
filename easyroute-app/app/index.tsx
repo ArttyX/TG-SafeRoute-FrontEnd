@@ -10,7 +10,7 @@ export default function HomeScreen() {
       <Text fontSize="$3xl" fontWeight="bold" color='black'>Bem-vindo ao EasyRoute!</Text>
       <Box width={200} height={200}>
         <Image
-          source={require('../assets/Logo_SafeRoute.png')}
+          source={require('../assets/Logo_EasyRoute.png')}
           alt="Logo do Projeto"
           style={{ width: 200, height: 200, resizeMode: 'contain' }}
         />
